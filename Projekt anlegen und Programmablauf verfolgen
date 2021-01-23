@@ -1,0 +1,23 @@
+// PAD1 - Praktikum 1
+// Aufgabe 1
+// 762199
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number = 13;              // Zahl 9 ist fest deklariert
+    cout << number << " = ";     // Ausgabe der Zahl 9 und des "="-Zeichens
+    cout << number%2;            // 9mod2=1 AUSGABE
+    number = number/2;           // 9/2=4.5
+    cout << number%2;            // 4mod2=0 AUSGABE
+    number = number/2;           // 4/2=2
+    cout << number%2;            // 2mod2=0 AUSGABE
+    number = number/2;           // 2/2=1
+    cout << number%2;            // 1mod2=1 AUSGABE
+    number = number/2;           // 1/2=0.5
+    cout << endl;
+    return 0;                    //Rückgabewert
+}
